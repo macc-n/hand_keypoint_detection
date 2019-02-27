@@ -1,5 +1,11 @@
+from hand_keypoints import *
+
+
 def main():
-    print ("main")
+    image_path = "test.jpg"
+    hkp = HandKeyPoint()
+    result = hkp.loadAndDoInference(image_path)
+    print(result)
 
 
 if __name__ == "__main__":
