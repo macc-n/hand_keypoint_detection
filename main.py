@@ -1,4 +1,4 @@
-from hand_keypoints import *
+from hand_keypoint import *
 
 
 def main():
